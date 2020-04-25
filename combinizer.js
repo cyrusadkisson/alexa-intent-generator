@@ -1,10 +1,88 @@
+//var bits = [
+//	    ["change", "set"],
+//	    ["the", "my", ""],
+//	    ["global"],
+//	    ["{signalType}"],
+//	    ["input", ""],
+//	    ["gain", "level", "trim"],
+//	    ["to {dbVal}"],
+//	    ["d b", "decibels", ""]    
+//	];
+
+//var bits = [
+//	    ["change", "set"],
+//	    ["the", "my", ""],
+//	    ["global"],
+//	    ["input", ""],
+//	    ["gain", "level", "trim"],
+//	    ["for {signalType} songs to"],
+//	    ["{dbVal}"],
+//	    ["d b", "decibels", ""]    
+//	];
+
+//var bits = [
+//    ["change", "set"],
+//    ["the", "my", ""],
+//    ["global"],
+//    ["{signalType}"],
+//    ["acoustic simulator", "acoustic sim", ""],
+//    ["impulse response", "eye are"], 
+//    ["source", ""],
+//    ["to {irType}"]    
+//];
+
+//var bits = [
+//    ["change", "set"],
+//    ["the", "my", ""],
+//    ["global"],
+//    ["acoustic simulator", "acoustic sim", ""],
+//    ["impulse response", "eye are"], 
+//    ["source", ""],
+//    ["for {signalType} songs"],
+//    ["to {irType}"]    
+//];
+
+//var bits = [
+//    ["show me", "list", "show", "display"],
+//    ["genres", "categories"]
+//];
+
+//var bits = [
+//	["show", "display", "list", "show me some", "show me", "display some", "list some"],
+//	["songs", "music"],
+//	["from the", "in the"],
+//	["{genre}"],
+//	["genre", "category", ""]
+//	];
+
+//var bits = [
+//	["show", "display", "list", "show me"],
+//	["your", "a list of", "the", "some"],
+//	["amps", "amplifiers", "amplifier models"]
+//	];
+
+//var bits = [
+//	["what"],
+//	["amps", "amplifiers", "amplifier models"],
+//	["are available", "do you have"]
+//	];
+
+//var bits = [
+//	["activate", "turn on", "enable", "give me"],
+//	["the", "some", "a", ""],
+//	["{effectName}"]
+//	];
+
+//var bits = [
+//["deactivate", "turn off", "disable", "remove", "undo",],
+//["the", "some", "a", ""],
+//["{effectName}"]
+//];
+
 var bits = [
-	["show me a", "display a"],
-	["picture", "photo", "image"],
-	["of a"],
-	["violet", "purple"],
-	["boat", "ship"]
-];
+	["shimmy", "boogie", "mesa boogie"],
+	["rectifier", "dual rectifier", "triple rectifier", "jack", "jack series", "mark" ],
+	];
 
 function getCombinations(firstArrayOfStrings, secondArrayOfStrings)
 {
